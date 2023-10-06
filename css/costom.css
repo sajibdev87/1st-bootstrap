@@ -6,6 +6,28 @@
     border: 0;
     border-radius:10px;
 }
+
 .carousel-indicators .active{
+
     width: 50px;
+}
+
+.carousel-indicators{
+
+    position: absolute;
+    bottom: -50px; 
+}
+.card{
+   border:0;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; 
+}
+.categories span{
+    width: 10rem;
+    height: 5px;
+    background-color: #ffc021;
+    display: inline-block;
+    border-radius: 10px;
+}
+footer{
+    background-color: rgba(41, 41, 41,0.093 );
 }
